@@ -12,6 +12,8 @@ import Vision
 
 final class ViewController: UIViewController {
 
+    // https://developer.apple.com/documentation/coreml/model_integration_samples/classifying_images_with_vision_and_core_ml
+    
     private let sightLabel: UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 32, weight: .semibold)
